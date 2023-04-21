@@ -1,0 +1,110 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles\style.css">
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images\haa.jpg" class="d-block w-100 h-10 ci"  alt="queenMagery">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>BEGINING WAS FUN WILL SEE WHERE IT GOES.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images\hee.jpg" class="d-block w-100 h-10 ci" alt="khaleesi">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>NOT THAT EASY UPCOMING NIGHTMARES.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images\hoo.jpg" class="d-block w-100 h-10 ci" alt="jakenHagar">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>DIED TRYING TO SOLVE THESE ERRORS.</p>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="container">
+          <div class="row">
+            <hr>
+            <hr>
+            <div class="col -sm-8 col -lg -4">
+              <img src="Images\adit.jpg" alt="myprofile" class="profile-pic">
+            </div>
+            <div class="col -sm-8 col -lg -5 about-content">
+
+              <h1>Aditya MN </h1>
+              <p><h3> this is aditya mn from third year aiml department apparently making a websight</h3>
+              <img src="data:image/jpeg;base64,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" alt="hgjk"> </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
